@@ -1,13 +1,10 @@
 
-import { createStore } from "redux";
-import counterReducer from "./reducers/counter";
+import { createStore, applyMiddleware } from "redux";
+import { thunk } from "redux-thunk";
 
-const initialState = {};
+import authReducer from "../reducers/auth";
 
-const rootReducer = (state = initialState, action) => {
-    return state;
-};
+ const middleware = [thunk];
+ const store = createStore(authReducer, applyMiddleware(...middleware));
 
-const store = createStore(counterReducer);
-
-export default store;
+ export default store;
