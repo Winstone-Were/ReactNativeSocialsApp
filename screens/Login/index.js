@@ -45,6 +45,7 @@ const Login = ({navigation}) =>{
                 placeholder='username'
             />
             <Button onPress={()=> onLogin()} title='Login'/>
+            <Button onPress={()=> onLogin()} title='Continue With Google'/>
         </View>
     )
 
