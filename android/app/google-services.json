@@ -12,7 +12,12 @@
           "package_name": "com.reduxdemo"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "735688775844-e9kou43pukdnustt2107ovl2djbljatd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyASTDTuYI6hYGxR4Djggnza854iKlFleM0"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735688775844-e9kou43pukdnustt2107ovl2djbljatd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
